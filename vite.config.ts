@@ -5,6 +5,7 @@ import {} from "vitest";
 export default defineConfig({
   plugins: [react()],
   test: {
-    
+    /* for example, use global to avoid globals imports (describe, test, expect): */
+    // globals: true,
   }
 });
